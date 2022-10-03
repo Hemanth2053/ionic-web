@@ -1,0 +1,78 @@
+
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+
+.contain{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.left-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maincomp{
+    width: 100%;
+}
+
+.textcont{
+    font-size: small;
+    padding-top: 8px;
+}
+
+.secbtn{
+    height: 80px;
+}
+
+.mot{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+}
+
+.head-bar{
+    background-color: cadetblue;
+    padding-left: 7px;
+}
+
+.detailcont{
+    background-color: cadetblue;
+}
+
+.video{
+    background-color: cadetblue;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btncont{
+    height: 55px;
+    background-color: none;
+}
+
+.btncon{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.up{
+    width: fit-content;
+    align-self: center;
+    padding: 3px; 
+    margin: 3px;
+}
+
